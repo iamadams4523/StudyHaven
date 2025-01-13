@@ -1,0 +1,28 @@
+import type { Config } from 'tailwindcss';
+
+export default {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        lightblue: '#F5FCFC',
+        teal: '#36CFC9',
+        lavender: '#F9F8FF',
+        lightpurple: '#6C63FF',
+        grey: '#4A4A4A',
+      },
+      backgroundImage: {
+        'custom-gradient':
+          'linear-gradient(to top right, #F5FCFC, #36CFC9, #F9F8FF)',
+      },
+      fontFamily: {
+        sans: ['Balsamiq Sans', 'sans-serif'], // Use Balsamiq Sans font
+      },
+    },
+  },
+  plugins: [],
+} satisfies Config;
