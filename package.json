@@ -14,13 +14,10 @@
     "next": "15.1.4"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-=======
->>>>>>> 51919d43f5cd175a9679e2775f0706424910c97c
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "eslint": "^9",
