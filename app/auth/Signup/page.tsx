@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { Switch } from '@/components/ui/switch';
 
 const Signin = () => {
   return (
@@ -53,12 +54,17 @@ const Signin = () => {
               name="Password"
               id="Password"
             />
+            <div className="flex items-center gap-2">
+              <Switch id="acceptance" />
+              <label
+                className="font-[Poppins] text-[14px] font-normal"
+                htmlFor="acceptance"
+              >
+                I accept the terms and policy
+              </label>
+            </div>
           </div>
-          <div className="flex">
-            <p className="font-[Poppins] text-[14px] font-normal leading-[15.4px] text-left">
-              I accept the terms and policy
-            </p>
-          </div>
+
           <button
             type="submit"
             className="text-white bg-lightpurple border px-[100px] py-3 font-[Poppins] text-[20px] font-normal leading-[30px] tracking-[0.04em] rounded-[30px]"
