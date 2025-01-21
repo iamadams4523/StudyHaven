@@ -7,7 +7,7 @@ import { MdOutlinePersonOutline } from 'react-icons/md';
 
 const Footer = () => {
   return (
-    <div className="flex items-center justify-around  max-w-screen w-full h-[40px] rounded-lg bg-lightpurple mx-auto">
+    <div className="flex items-center justify-around  max-w-screen w-full h-[40px] rounded-lg bg-lightpurple mx-auto mb-[.4 rem]">
       <div className="h-[30px] w-[30px] rounded-[50%] hover:bg-white flex justify-center items-center">
         <GrHomeRounded className="h-[20px] w-[20px] text-white hover:text-teal" />
       </div>

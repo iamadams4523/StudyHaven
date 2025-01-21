@@ -18,13 +18,6 @@ const page = () => {
               Hi Zainab,
             </p>
           </div>
-          <Image
-            src="/Frame 21.svg"
-            alt="profile picture"
-            width={50}
-            height={50}
-            className="w-[40px] h-[40px] rounded-[50%]"
-          />
         </div>
         <div className="w-[90%] mx-auto rounded-full h-[40px] gap-2 bg-gray flex items-center">
           <FiSearch className="text-[20px] text-lightpurple ml-2" />
