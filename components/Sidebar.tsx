@@ -65,7 +65,7 @@ export default function Sidebar() {
             </p>
           </Link>
           <Link
-            href="/Home"
+            href="/Home/Classroom"
             className="flex justify-start items-center pl-5 gap-[3rem] hover:outline hover:outline-2 hover:outline-white hover:rounded-[12px]"
           >
             <PiBookOpenUserBold className="h-[30px] w-[30px] text-white hover:text-teal" />
@@ -74,7 +74,7 @@ export default function Sidebar() {
             </p>
           </Link>
           <Link
-            href="/Home"
+            href="/Home/Profile"
             className="flex justify-start items-center pl-5 gap-[3rem] hover:outline hover:outline-2 hover:outline-white hover:rounded-[12px]"
           >
             <MdOutlinePersonOutline className="h-[30px] w-[30px] text-white hover:text-teal" />
