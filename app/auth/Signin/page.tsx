@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Signin = () => {
   return (
-    <div className="bg-lavender">
-      <div className='"max-h-screen max-w-[1024px] w-screen mx-auto h-screen sflex flex-col'>
+    <div className="min-h-screen bg-lavender flex items-center justify-center">
+      <div className="max-w-[1024px] w-full h-full mx-auto flex flex-col">
         <div className="bg-teal h-[40%]">
           <h1 className="font-[Poppins] text-white text-[45px] font-bold leading-[67.5px] tracking-[0.04em] text-left from-font decoration-none pt-[5rem] pl-4">
             Welcome
@@ -15,7 +15,7 @@ const Signin = () => {
             Seeker of Knowledge
           </p>
         </div>
-        <div className="h-[10%] bg-blue-500">
+        <div className="h-[100px] bg-blue-500">
           {/* <Image
             src="/Rectangle 136.png"
             alt="wave"

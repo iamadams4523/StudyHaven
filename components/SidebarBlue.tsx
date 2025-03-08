@@ -17,7 +17,6 @@ import { MdOutlinePersonOutline } from 'react-icons/md';
 import { RiContactsBook3Line } from 'react-icons/ri';
 import { MdOutlineSettings } from 'react-icons/md';
 import { IoLogOutOutline } from 'react-icons/io5';
-
 import Link from 'next/link';
 
 export default function Sidebar() {
@@ -56,16 +55,16 @@ export default function Sidebar() {
             </p>
           </Link>
           <Link
-            href="/Home"
+            href="/Assessment"
             className="flex justify-start items-center pl-5 gap-[3rem] hover:outline hover:outline-2 hover:outline-white hover:rounded-[12px]"
           >
             <RiGraduationCapFill className="h-[30px] w-[30px] text-white hover:text-teal" />
             <p className="font-[poppins] text-white text-[18px] font-medium ">
-              Assesment
+              Assessment
             </p>
           </Link>
           <Link
-            href="/Home/Classroom"
+            href="/Classroom/department_name"
             className="flex justify-start items-center pl-5 gap-[3rem] hover:outline hover:outline-2 hover:outline-white hover:rounded-[12px]"
           >
             <PiBookOpenUserBold className="h-[30px] w-[30px] text-white hover:text-teal" />
@@ -83,7 +82,7 @@ export default function Sidebar() {
             </p>
           </Link>
           <Link
-            href="/"
+            href="/Home/ContactUs"
             className="flex justify-start items-center pl-5 gap-[3rem] hover:outline hover:outline-2 hover:outline-white hover:rounded-[12px]"
           >
             <RiContactsBook3Line className="h-[30px] w-[30px] text-white hover:text-teal" />
@@ -91,7 +90,7 @@ export default function Sidebar() {
               Contact Us
             </p>
           </Link>
-          <Link
+          {/* <Link
             href="/"
             className="flex justify-start items-center pl-5 gap-[3rem] hover:outline hover:outline-2 hover:outline-white hover:rounded-[12px]"
           >
@@ -99,7 +98,7 @@ export default function Sidebar() {
             <p className="font-[poppins] text-white text-[18px] font-medium ">
               Settings
             </p>
-          </Link>
+          </Link> */}
           <Link
             href="/auth/Signin"
             className="flex justify-start items-center pl-5 gap-[3rem] hover:outline hover:outline-2 hover:outline-white hover:rounded-[12px]"
