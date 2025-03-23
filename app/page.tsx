@@ -45,7 +45,7 @@ const Onboarding: React.FC = () => {
   };
 
   return (
-    <div className="max-h-screen w-screen mx-auto h-screen bg-custom-gradient">
+    <div className="max-h-screen w-screen mx-auto h-screen bg-custom-gradient overflow-hidden">
       <div className="h-[90vh] w-[100%] flex flex-col items-center mx-auto pt-[9rem]">
         <img
           src={steps[currentStep - 1].image}

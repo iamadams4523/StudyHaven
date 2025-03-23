@@ -17,3 +17,7 @@ export default function RootLayout({
     </div>
   );
 }
+
+// vercel deployement hiccups
+// signin$signup screen doesn;t fill the screen
+// onboarding screens are overflowing

@@ -4,47 +4,49 @@ import { Switch } from '@/components/ui/switch';
 
 const Signin = () => {
   return (
-    <div className="bg-lavender min-h-screen">
+    // <div className="bg-lavender min-h-screen">
+    <div className="bg-custom-gradient min-h-screen">
       <div className="max-w-[1024px] w-screen mx-auto h-[100%] flex flex-col">
-        <div className="bg-teal h-[40%]">
+        {/* <div className="bg-teal h-[40%]"> */}
+        <div className="h-[40%]">
           <h1 className="font-[Poppins] text-white text-[45px] font-bold leading-[67.5px] tracking-[0.04em] text-left from-font decoration-none pt-[5rem] pl-4">
             Create account
           </h1>
         </div>
-        <div className="h-[100px] bg-blue-500">
-          {/* <Image
+        {/* <div className="h-[100px] bg-blue-500"> */}
+        {/* <Image
             src="/Rectangle 136.png"
             alt="wave"
             width={5}
             height={5}
             className="w-full"
           /> */}
-        </div>
-        <form className="bg-white h-[50%] flex flex-col gap-4 items-center">
+        {/* </div> */}
+        <form className="h-[50%] flex flex-col gap-4 items-center">
           <div className="w-[90%] flex flex-col justify-between gap-3 mt-4">
-            <label className="font-[Poppins] text-[18px] font-normal leading-[19.8px] text-left text-teal">
+            <label className="font-[Poppins] text-[18px] font-normal leading-[19.8px] text-left text-lightblue">
               Name
             </label>
             <input
-              className="w-full h-[40px] border border-black"
+              className="w-full bg-teal h-[40px] border border-black"
               type="text"
               name="Name"
               id="Name"
             />
-            <label className="font-[Poppins] text-[18px] font-normal leading-[19.8px] text-left text-teal">
+            <label className="font-[Poppins] text-[18px] font-normal leading-[19.8px] text-left text-lightblue">
               Email
             </label>
             <input
-              className="w-full h-[40px] border border-black"
+              className="w-full bg-teal h-[40px] border border-black"
               type="text"
               name="email"
               id="email"
             />
-            <label className="font-[Poppins] text-[18px] font-normal leading-[19.8px] text-left text-teal">
+            <label className="font-[Poppins] text-[18px] font-normal leading-[19.8px] text-left text-lightblue">
               Password
             </label>
             <input
-              className="w-full h-[40px] border border-black"
+              className="w-full bg-teal h-[40px] border border-black"
               type="text"
               name="Password"
               id="Password"
