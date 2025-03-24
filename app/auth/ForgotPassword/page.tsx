@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Signin = () => {
   return (
     <div className="min-h-screen bg-custom-gradient flex items-center justify-center">
-      <div className="max-w-[1024px] w-full h-full mx-auto flex flex-col">
+      <div className="max-w-[1024px] w-full h-full mx-auto flex flex-col gap-[4rem]">
         {/* <div className="bg-teal h-[40%]"> */}
         <div className="h-[40%]">
           <h1 className="font-[Poppins] text-white text-[45px] font-bold leading-[67.5px] tracking-[0.04em] text-left from-font decoration-none pt-[5rem] pl-4">

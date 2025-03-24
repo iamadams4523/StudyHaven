@@ -6,7 +6,7 @@ const Signin = () => {
   return (
     // <div className="bg-lavender min-h-screen">
     <div className="bg-custom-gradient min-h-screen">
-      <div className="max-w-[1024px] w-screen mx-auto h-[100%] flex flex-col">
+      <div className="max-w-[1024px] w-screen mx-auto h-[100%] gap-[3rem] flex flex-col">
         {/* <div className="bg-teal h-[40%]"> */}
         <div className="h-[40%]">
           <h1 className="font-[Poppins] text-white text-[45px] font-bold leading-[67.5px] tracking-[0.04em] text-left from-font decoration-none pt-[5rem] pl-4">
