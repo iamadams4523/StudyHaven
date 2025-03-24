@@ -32,7 +32,7 @@ const Signin = () => {
               Email
             </label>
             <input
-              className="w-full h-[40px] bg-teal border border-black"
+              className="w-full h-[40px] bg-custom-gradient border border-black"
               type="text"
               name="email"
               id="email"
@@ -41,7 +41,7 @@ const Signin = () => {
               Password
             </label>
             <input
-              className="w-full h-[40px] bg-teal border border-black"
+              className="w-full h-[40px] bg-custom-gradient border border-black"
               type="text"
               name="Password"
               id="Password"
