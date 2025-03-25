@@ -28,7 +28,7 @@ const Signin = () => {
               Name
             </label>
             <input
-              className="w-full bg-custom-gradient h-[40px] border border-black"
+              className="w-full rounded-[15px] h-[40px] border border-black p-2 focus:outline-none"
               type="text"
               name="Name"
               id="Name"
@@ -37,7 +37,7 @@ const Signin = () => {
               Email
             </label>
             <input
-              className="w-full bg-custom-gradient h-[40px] border border-black"
+              className="w-full rounded-[15px] h-[40px] border border-black p-2 focus:outline-none"
               type="text"
               name="email"
               id="email"
@@ -46,7 +46,7 @@ const Signin = () => {
               Password
             </label>
             <input
-              className="w-full bg-custom-gradient h-[40px] border border-black"
+              className="w-full rounded-[15px] h-[40px] border border-black p-2 focus:outline-none"
               type="text"
               name="Password"
               id="Password"

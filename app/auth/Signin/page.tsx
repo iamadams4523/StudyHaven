@@ -5,7 +5,7 @@ const Signin = () => {
   return (
     // <div className="min-h-screen bg-lavender flex items-center justify-center">
     <div className="min-h-screen bg-custom-gradient">
-      <div className="max-w-[1024px] w-full h-full mx-auto flex flex-col gap-[3rem]">
+      <div className="max-w-[1024px] w-full h-full mx-auto flex flex-col gap-[4rem]">
         {/* <div className="bg-teal h-[40%]"> */}
         <div className="h-[40%]">
           <h1 className="font-[Poppins] text-white text-[45px] font-bold leading-[67.5px] tracking-[0.04em] text-left from-font decoration-none pt-[5rem] pl-4">
@@ -32,7 +32,7 @@ const Signin = () => {
               Email
             </label>
             <input
-              className="w-full h-[40px] bg-custom-gradient border border-black"
+              className="w-full h-[40px] rounded-[15px] border border-black p-2 focus:outline-none"
               type="text"
               name="email"
               id="email"
@@ -41,7 +41,7 @@ const Signin = () => {
               Password
             </label>
             <input
-              className="w-full h-[40px] bg-custom-gradient border border-black"
+              className="w-full h-[40px] rounded-[15px] border border-black p-2 focus:outline-none"
               type="text"
               name="Password"
               id="Password"
