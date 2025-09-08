@@ -1,17 +1,21 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Switch } from '@/components/ui/switch';
 
-const Signup = () => {
+const Signin = () => {
   return (
-    // <div className="bg-lavender min-h-screen">
-    <div className="bg-custom-gradient min-h-screen">
-      <div className="max-w-[1024px] w-screen mx-auto h-[100%] gap-[3rem] flex flex-col">
+    // <div className="min-h-screen bg-lavender flex items-center justify-center">
+    <div className="min-h-screen bg-custom-gradient">
+      <div className="max-w-[1024px] w-full h-full mx-auto flex flex-col gap-[4rem]">
         {/* <div className="bg-teal h-[40%]"> */}
         <div className="h-[40%]">
           <h1 className="font-[Poppins] text-white text-[45px] font-bold leading-[67.5px] tracking-[0.04em] text-left from-font decoration-none pt-[5rem] pl-4">
-            Create account
+            Welcome
+            <br />
+            Back 😎
           </h1>
+          <p className="font-[Poppins]  text-white text-[24px] font-normal leading-[36px] tracking-[0.04em] text-left from-font decoration-none pl-4">
+            Administrator
+          </p>
         </div>
         {/* <div className="h-[100px] bg-blue-500"> */}
         {/* <Image
@@ -25,19 +29,10 @@ const Signup = () => {
         <form className="h-[50%] flex flex-col gap-4 items-center">
           <div className="w-[90%] flex flex-col justify-between gap-3 mt-4">
             <label className="font-[Poppins] text-[18px] font-normal leading-[19.8px] text-left text-lightblue">
-              Name
-            </label>
-            <input
-              className="w-full rounded-[15px] h-[40px] border border-black p-2 focus:outline-none"
-              type="text"
-              name="Name"
-              id="Name"
-            />
-            <label className="font-[Poppins] text-[18px] font-normal leading-[19.8px] text-left text-lightblue">
               Email
             </label>
             <input
-              className="w-full rounded-[15px] h-[40px] border border-black p-2 focus:outline-none"
+              className="w-full h-[40px] rounded-[15px] border border-black p-2 focus:outline-none"
               type="text"
               name="email"
               id="email"
@@ -46,31 +41,21 @@ const Signup = () => {
               Password
             </label>
             <input
-              className="w-full rounded-[15px] h-[40px] border border-black p-2 focus:outline-none"
+              className="w-full h-[40px] rounded-[15px] border border-black p-2 focus:outline-none"
               type="text"
               name="Password"
               id="Password"
             />
-            <div className="flex items-center gap-2">
-              <Switch id="acceptance" />
-              <label
-                className="font-[Poppins] text-[14px] font-normal"
-                htmlFor="acceptance"
-              >
-                I accept the terms and policy
-              </label>
-            </div>
           </div>
-
           <button
             type="submit"
             className="text-white bg-lightpurple border px-[100px] py-3 font-[Poppins] text-[20px] font-normal leading-[30px] tracking-[0.04em] rounded-[30px]"
           >
-            Sign Up
+            Sign In
           </button>
           <div className="flex flex-col justify-center items-center">
             <p className="font-[Poppins] text-[16px] font-light leading-[24px] tracking-[0.02em] text-left ">
-              or signup with
+              or signin with
             </p>
             <Image
               src="/logos_google.png"
@@ -80,13 +65,18 @@ const Signup = () => {
               className="hover:cursor-pointer"
             />
           </div>
-
-          <div className="flex justify-center items-center w-[90%] mx-auto">
+          <div className="flex justify-between w-[90%] mx-auto">
             <Link
               className="font-[poppins] text-sm font-light leading-6 tracking-wide text-left"
-              href="/auth/Signin"
+              href="/auth/Signup"
             >
-              Already Have an account? Sign in
+              Sign up
+            </Link>
+            <Link
+              className="font-[poppins] text-sm font-light leading-6 tracking-wide text-left"
+              href="/auth/ForgotPassword"
+            >
+              Forgot Password?
             </Link>
           </div>
         </form>
@@ -94,4 +84,4 @@ const Signup = () => {
     </div>
   );
 };
-export default Signup;
+export default Signin;
