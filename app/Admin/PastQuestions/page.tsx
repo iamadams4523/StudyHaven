@@ -4,7 +4,7 @@ import { DashboardLayout } from '@/components/layout/DashboardLayout';
 import { Card } from '@/components/ui/Card';
 import { DataTable } from '@/components/ui/DataTable';
 import { PlusIcon, FilterIcon } from 'lucide-react';
-export function PastQuestions() {
+const PastQuestions = () => {
   // Mock data for past questions
   const [questions, setQuestions] = useState([
     {
@@ -392,4 +392,6 @@ export function PastQuestions() {
       </Card>
     </DashboardLayout>
   );
-}
+};
+
+export default PastQuestions;

@@ -4,7 +4,7 @@ import { DashboardLayout } from '@/components/layout/DashboardLayout';
 import { Card } from '@/components/ui/Card';
 import { DataTable } from '@/components/ui/DataTable';
 import { PlusIcon } from 'lucide-react';
-export function Levels() {
+const Levels = () => {
   // Mock data for levels
   const [levels, setLevels] = useState([
     {
@@ -244,4 +244,6 @@ export function Levels() {
       </Card>
     </DashboardLayout>
   );
-}
+};
+
+export default Levels;

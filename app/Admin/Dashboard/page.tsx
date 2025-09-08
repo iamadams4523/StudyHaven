@@ -11,7 +11,7 @@ import {
   BookIcon,
   UsersIcon,
 } from 'lucide-react';
-export default function Dashboard() {
+const Dashboard = () => {
   // Mock data for recent activities
   const recentActivities = [
     {
@@ -150,4 +150,6 @@ export default function Dashboard() {
       </div>
     </DashboardLayout>
   );
-}
+};
+
+export default Dashboard;

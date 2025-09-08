@@ -4,7 +4,7 @@ import { DashboardLayout } from '@/components/layout/DashboardLayout';
 import { Card } from '@/components/ui/Card';
 import { DataTable } from '@/components/ui/DataTable';
 import { PlusIcon, FilterIcon, UploadIcon } from 'lucide-react';
-export function CourseMaterials() {
+const CourseMaterials = () => {
   // Mock data for course materials
   const [materials, setMaterials] = useState([
     {
@@ -425,4 +425,6 @@ export function CourseMaterials() {
       </Card>
     </DashboardLayout>
   );
-}
+};
+
+export default CourseMaterials;
